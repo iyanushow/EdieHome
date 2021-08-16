@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Home Interiors}</h1>
+<h1 align="center">{Edie Homepage}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://shady-interiors.netlify.app/">
+    <a href="https://ediedev.netlify.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/iyanushow/Home-decor">
+    <a href="https://github.com/iyanushow/EdieHome">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0/">
       Challenge
     </a>
   </h3>
@@ -38,21 +38,20 @@
 
 ![screenshot](public/screenshot.png)
 
-This is a responsive design for the landing page of a home interiors website. The solution can be found on [shady-interiors](https://shady-interiors.netlify.app/). I used this project to practice building responsive pages with tailwindcss. I experienced some troubles with the breakpoints and resposiveness along the way but I was able to solve them to achieve my goal
+This is a responsive design solution for the homepage of a Edie website. The solution can be found at [Edie-Home](https://ediedev.netlify.app). Decided to go with react for this project to switch things uo from regular HTML and CSS. Also added a little interactivity to the website.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [CSS]
-- [JS]
-- [Tailwind](https://tailwindcss.com/)
+- [ReactJS]
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0/) was to build an application to complete the given user stories.
 
 ## Contact
 
