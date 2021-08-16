@@ -55,10 +55,10 @@
 @media (max-width: 767px) {
   .nav {
     width: 35%;
-    height: 100vh;
     left: 0;
     top: 0;
-    position: absolute;
+    bottom: 0;
+    position: fixed;
     margin-left: auto;
     z-index: 100;
     background: #e4e1e1;
@@ -79,6 +79,6 @@
     margin-top: auto;
   }
   .nav ul li:last-child {
-    margin-bottom: aut;
+    margin-bottom: auto;
   }
 }
