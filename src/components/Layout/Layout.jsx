@@ -1,5 +1,4 @@
-import React, { Children } from 'react';
-import styles from './Layout.module.css';
+import React from 'react';
 
 const Layout = ({ children }) => {
   return <div className='layout__container'>{children}</div>;

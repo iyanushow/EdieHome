@@ -1,4 +1,4 @@
-import React, { useContext, useReducer, useEffect } from 'react';
+import React, { useReducer, useEffect } from 'react';
 import SizeContext from './sizeContext';
 import sizeReducer from './sizeReducer';
 

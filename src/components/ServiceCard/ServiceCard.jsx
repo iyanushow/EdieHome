@@ -1,9 +1,8 @@
-import { faPen } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import styles from './ServiceCard.module.css';
 
-const ServiceCard = ({ heading, content, img, icon, color }) => {
+const ServiceCard = ({ heading, content, icon, color }) => {
   return (
     <div className={styles.card}>
       <span className={styles.span} style={{ background: color }}>

@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         <figure className={styles.fig}>
-          <img src='/heroImage.jpg' alt='hero-image' className={styles.heroImage} />
+          <img src='/heroImage.jpg' alt='hero' className={styles.heroImage} />
         </figure>
 
         <div className={`${styles.hero} container`}>
