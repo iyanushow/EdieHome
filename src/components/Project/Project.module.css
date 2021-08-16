@@ -1,0 +1,30 @@
+.img {
+  border-radius: 2rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  color: #828282;
+  font-weight: 300;
+  /* font-size: 1.2rem;
+  line-height: 1.2rem; */
+  margin-top: 10px;
+}
+
+.heading {
+  font-weight: 500;
+  /* font-size: 1.8rem;
+  line-height: 2.4rem; */
+  color: #333333;
+  margin: 0;
+}
+.project {
+  max-width: 454px;
+}
+@media (min-width: 1008px) {
+  .project:nth-of-type(2n + 1) {
+    position: relative;
+    top: 150px;
+  }
+}

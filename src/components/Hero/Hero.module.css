@@ -1,0 +1,19 @@
+.heroImage {
+  width: 100%;
+  height: auto;
+  border-radius: 18px;
+
+  /* position: absolute;
+  left: 0; */
+  padding: 0 10px;
+}
+.fig {
+  /* height: 80px; */
+  margin: 20px auto;
+}
+.heading {
+  margin: 0 0 10px !important;
+}
+.hero {
+  max-width: 767px;
+}

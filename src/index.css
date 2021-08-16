@@ -1,13 +1,118 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+:root {
+  --fontFamily: 'Poppins', sans-serif;
+  --fontSize: 10px;
+  --greyPry: #333333;
+  --greySec: #4f4f4f;
+  --bluePry: #2d9cdb;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* resets */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: var(--fontSize);
+  font-family: var(--fontFamily);
+  font-weight: normal;
+  scroll-behavior: smooth;
+}
+
+/* general styling */
+div#root {
+  background: #e0e3e6;
+}
+a,
+a:active,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+  transition: all ease-out 0.3s;
+}
+button:hover {
+  background: #2574a1;
+}
+input:focus-within {
+  outline: 1px solid #2d9cdb;
+}
+/* starting utility classes */
+
+/* font-size */
+.small {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+}
+.medium {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+.meta-font {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+.large {
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+.tablet {
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+}
+.desktop {
+  font-size: 4.8rem;
+  line-height: 7.6rem;
+}
+
+.section {
+  margin: 40px 0;
+  padding: 0 5px;
+}
+.section-header {
+  font-weight: 500;
+  color: var(--greyPry);
+  max-width: 20ch;
+  margin: 80px 0 20px;
+}
+
+.container {
+  margin: 40px auto;
+  padding: 0 20px;
+  max-width: 767px;
+}
+.container h4 {
+  color: var(--bluePry);
+  font-weight: normal;
+}
+
+.container :where(:is(.small, .meta-font)) {
+  font-style: normal;
+  color: var(--greySec);
+  margin: 20px 0;
+}
+
+.flex {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.layout__container {
+  max-width: 1440px;
+  padding: 2% 2% 1rem;
+  margin: 0 auto;
+}
+/* ending utility classes */
