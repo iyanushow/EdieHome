@@ -53,8 +53,14 @@ This is a responsive design solution for the homepage of a Edie website. The sol
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/xobQBuf8zWWmiYMIAZe0/) was to build an application to complete the given user stories.
 
-## Contact
+### Contact🌍
+[<img align="left" alt="iyanu-show | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/twitter.svg" />][twitter]
+[<img align="left" alt="iyanu-show | LinkedIn" width="22px"  src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="iyanu-show" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v5/icons/react.svg" />][website]
 
-- Website [iyanushow.com](https://iyanushowportfolio.netlify.app/)
-- GitHub [iyanushow](https://github.com/iyanushow)
-- Twitter [the_iyanu](https://twitter.com/the_iyanu)
+
+<br/>
+
+[website]: https://iyanushowportfolio.netlify.app/
+[twitter]: https://twitter.com/the_iyanu
+[linkedin]: https://www.linkedin.com/in/iyanuoluwa-sowande-0522/
