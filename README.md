@@ -30,13 +30,12 @@
   - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+
 
 <!-- OVERVIEW -->
 
 ## Overview
-
-![screenshot](public/screenshot.png)
+![Screenshot (129)](https://user-images.githubusercontent.com/62676042/130666568-34a1e7fc-92c3-4ee5-afd6-1d7e2a0caa26.png)
 
 This is a responsive design solution for the homepage of a Edie website. The solution can be found at [Edie-Home](https://ediedev.netlify.app). Decided to go with react for this project to switch things uo from regular HTML and CSS. Also added a little interactivity to the website.
 
