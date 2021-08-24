@@ -43,8 +43,9 @@ This is a responsive design solution for the homepage of a Edie website. The sol
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [CSS]
-- [ReactJS]
+   ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+  ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+  ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 
 ## Features
 
